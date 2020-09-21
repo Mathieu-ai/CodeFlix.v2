@@ -1,4 +1,4 @@
-function lowerCase(str = '') {
+function spinalCase(str = '') {
     const result = []
     var oldCharCode
 
@@ -21,11 +21,11 @@ function lowerCase(str = '') {
   
 
   // TESTS
-  console.log(lowerCase('Chopper -Tony Tony'), 'RESULT: chopper')
+  console.log(spinalCase('Chopper -Tony Tony'), 'RESULT: chopper')
 
 /*
 
 Avc utilisation de la librarie JS
-"     AAA   ffff BB     lkdfjgkj  ".trim().replace( /\s+/g, "-").toLowerCase()
+"-----  AAA   ffff BB --------    lkdfjgkj  ".replace( /-+/g, " ").trim().replace( /\s+/g, "-").toLowerCase()
 
 */
