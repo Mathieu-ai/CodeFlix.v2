@@ -4,4 +4,4 @@ function spinalCase(str) {
            }).replace(/([a-z])(?=[A-Z])/g, '$1-').toLowerCase();
   }
   
-  console.log(spinalCase("love One code")); // "this-is-spinal-tap".
+  console.log(spinalCase("love One code")); // "Love One code".
