@@ -1,1 +1,1 @@
-This folder is where I do the exercices way lower pace than my teacher 😂
+This folder is where I do the exercices way slowly than my teacher 😂
