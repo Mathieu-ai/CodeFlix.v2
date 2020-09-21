@@ -1,6 +1,6 @@
 function spinalCase(str = '') {
     const result = []
-    var oldCharCode
+    var oldCharCode              // contiendra le dernière caractère lu
 
     for (let i = 0; i < str.length; i++) {
         let charCode = str.charCodeAt(i)
@@ -13,7 +13,7 @@ function spinalCase(str = '') {
           charCode = charCode + 32
         }
 
-        result.push(String.fromCharCode(charCode));
+        result.push(String.fromCharCode(charCode));     // empile le caractère transformé ou non
         oldCharCode = charCode
     } 
     return result.join('')
