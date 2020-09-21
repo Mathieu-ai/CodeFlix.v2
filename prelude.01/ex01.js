@@ -2,17 +2,13 @@ function lowerCase(str = '') {
     const result = []
   
     for (let i = 0; i < str.length; i++) {
-      const charCode = str[i].charCodeAt(0)
+      let charCode = str.charCodeAt(i)
   
-      if (charCode >= 65 && charCode <= 90) {
-        result[i] = charCode + 32
-      } else {
-        result[i] = charCode
-      }
-  
-      result[i] = String.fromCharCode(result[i])
+      if (charCode >= 65 && charCode <= 90) {  // est-ce une valeur minuscule ?
+        charCode = charCode + 32
+      }  
+      result[i] = String.fromCharCode(charCode);
     }
-  
     return result.join('')
   }
   
