@@ -21,17 +21,9 @@ function spinalCase(str = '') {
   
 
   // TESTS
-  console.log(spinalCase('Chopper -Tony Tony'), 'RESULT: chopper')
+  console.log(spinalCase('Love One Code'))
 
 /*
-<<<<<<< HEAD
 Avc utilisation de la librarie JS
 "-----  AAA   ffff BB --------    lkdfjgkj  ".replace( /-+/g, " ").trim().replace( /\s+/g, "-").toLowerCase()
 */
-=======
-
-Avc utilisation de la librarie JS
-"-----  AAA   ffff BB --------    lkdfjgkj  ".replace( /-+/g, " ").trim().replace( /\s+/g, "-").toLowerCase()
-
-*/
->>>>>>> 0c693b3362eea14875f4078005f6572883fb867d
