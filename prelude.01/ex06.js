@@ -24,6 +24,14 @@ function spinalCase(str = '') {
   console.log(spinalCase('Chopper -Tony Tony'), 'RESULT: chopper')
 
 /*
+<<<<<<< HEAD
 Avc utilisation de la librarie JS
 "-----  AAA   ffff BB --------    lkdfjgkj  ".replace( /-+/g, " ").trim().replace( /\s+/g, "-").toLowerCase()
 */
+=======
+
+Avc utilisation de la librarie JS
+"-----  AAA   ffff BB --------    lkdfjgkj  ".replace( /-+/g, " ").trim().replace( /\s+/g, "-").toLowerCase()
+
+*/
+>>>>>>> 0c693b3362eea14875f4078005f6572883fb867d
