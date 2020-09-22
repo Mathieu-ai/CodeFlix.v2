@@ -4,7 +4,7 @@ var str = new String( "chopper" );
         // Il crée un nouvel objet à partir de zéro
         // Il lie cet objet à un autre objet en le définissant comme son prototype.
         // Le nouvel objet, créé à l'étape 1, est passé comme valeur this à la fonction
-        // Si la fonction ne renvoie pas d'objet, c'est la valeur this qui est renvoyée.
+        // Si la fonction ne renvoie pas d'objet, c'est la valeur this qui est renvoyée
 
          console.log("str.charAt(0) is : " + str.charAt(0)); 
          console.log("str.charAt(1) is : " + str.charAt(1)); 
